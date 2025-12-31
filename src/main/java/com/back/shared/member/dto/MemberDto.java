@@ -1,4 +1,7 @@
 package com.back.shared.member.dto;
 
-public class MemberDto {
+public record MemberDto (
+    int id
+) {
+
 }
